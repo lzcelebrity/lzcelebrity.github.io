@@ -4,120 +4,49 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=0.7">
 	<link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 	<header>
-		
-		
-		<div class="logo" onclick="location.href='index.html';"><br>
-		</div>
-		
-		<div class="navbar">
-<!--
-		  <a href="#home">HOME</a>
--->
-		  <div class="dropdown">
-		    <button class="dropbtn" onclick="myFunction()">
-		      <i class="fa fa-caret-down"></i>
-		    </button>
-		    <div class="dropdown-content" id="myDropdown">
-		      <a href="https://www.google.com/">lzcelebrity</a>
-		      <a href="https://www.google.com/">lzcelebrity</a>
-			  <a href="https://www.google.com/">lzcelebrity</a>
-		    </div>
-		  </div> 
-		</div>
-		
-		<H1></H1>
+		<div class="logo"><br>LZ</div>
+		<br><br><br><H1>COMING SOON</H1>
 	</header>
 	<div class="bodyblock">
 		<div class="content">
+			<p>WELCOME ZL!</p>
+			<br>
 			<img src="img/logo.png">
 			<br>
-			<p>Описание товара</p>
-			<p>Цена грн.</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 			<br>
 		</div>
-		<div class="top"> <a href="#" id="up" onclick="return up()">наверх</a> </div>
-		<div class="content" onclick="location.href='index.html';">
-			<img src="img/logo.png">
+		<div class="content">
+			
+			<center>SHOP BY CATEGORY</center>
 			<br>
-			<p>Описание товара</p>
-			<p>Цена грн.</p>
 			<br>
-		</div>
-		<div class="top"> <a href="#" id="up" onclick="return up()">наверх</a> </div>
-		<div class="content" onclick="location.href='index.html';">
-			<img src="img/logo.png">
 			<br>
-			<p>Описание товара</p>
-			<p>Цена грн.</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 			<br>
 		</div>
-		<div class="top"> <a href="#" id="up" onclick="return up()">наверх</a> </div>
-		<div class="content" onclick="location.href='index.html';">
-			<img src="img/logo.png">
-			<br>
-			<p>Описание товара</p>
-			<p>Цена грн.</p>
-			<br>
-		</div>
-		<div class="top"> <a href="#" id="up" onclick="return up()">наверх</a> </div>
-		<div class="content" onclick="location.href='index.html';">
-			<img src="img/logo.png">
-			<br>
-			<p>Описание товара</p>
-			<p>Цена грн.</p>
-			<br>
-		</div>
-		<div class="top"> <a href="#" id="up" onclick="return up()">наверх</a> </div>
 	</div>
 	<footer>
-		<div class="information">
-			<br>
-			LZ Celebrity
-			<br><br>
-			<p> Designer L. Zaitseva </p>
-			<p> Ukrainian fashion brand </p>
-			<p> <a href="index.html">lzcelebrity@gmail.com</a></p>
-			<p> Kyiv, Ukraine</p>
-		</div>
+		<div class="information">ZL</div>
+		<div class="information">ABOUT US</div>
+		<div class="information">MORE INFO</div>
 		<div class="creator">Create by df229611</div>
 	</footer>
 
-	<!--  Скрипт выпадающего меню -->
-	<script>
-		/* When the user clicks on the button, 
-		toggle between hiding and showing the dropdown content */
-		function myFunction() {
-		    document.getElementById("myDropdown").classList.toggle("show");
-		}
-
-		// Close the dropdown if the user clicks outside of it
-		window.onclick = function(e) {
-		  if (!e.target.matches('.dropbtn')) {
-		    var myDropdown = document.getElementById("myDropdown");
-		      if (myDropdown.classList.contains('show')) {
-		        myDropdown.classList.remove('show');
-		      }
-		  }
-		}
-	</script>
-
-	<!--  Скрипт плавной прокрутки наверх -->
-	<script>
-		function up() {
-			var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
-		  if(top > 0) {
-			
-			/* window.scrollBy(0,-100); */
- 			/* Замедление при приближении к началу страницы */
-			window.scrollBy(0,((top+100)/-15));
-			t = setTimeout('up()',20);
-		  } else clearTimeout(t);
-		  return false;
-		}
-	</script>
 </body>
 </html>
