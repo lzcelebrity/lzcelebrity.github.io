@@ -79,7 +79,7 @@ header{
 
 .logo{
 	cursor: pointer;
-	width: 45%;							/* Ширина блока */
+	width: 35%;							/* Ширина блока */
 	height: 95%;						/* Высота блока */
 	background: url(../img/logo.png);	/* Путь к фоновому рисунку */
 	background-repeat: no-repeat;		/* Повторяем фон */
@@ -245,7 +245,7 @@ footer{
     font-family: inherit;
 	margin-left: 20px;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 	width: 50px;
 	height: 50px;
