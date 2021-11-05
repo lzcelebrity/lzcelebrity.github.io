@@ -247,8 +247,8 @@ footer{
     margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 20px;
-	width: 55px;
-	height: 55px;
+	width: 50px;
+	height: 50px;
 	background: url(../img/60510.png);		/* Путь к фоновому рисунку */
 	background-repeat: no-repeat;			/* Повторяем фон */
 	background-position: top center;		/* Положение фона */
@@ -450,3 +450,19 @@ footer{
 	letter-spacing: 2px;
 }
 
+.icon {
+	display:  block;
+	width: 35px;
+	height: 35px;
+	float:  right;
+	border: 0px solid white;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 20px;
+
+}
+
+.icon img{
+
+	width:  100%;
+}
