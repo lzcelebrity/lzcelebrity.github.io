@@ -375,6 +375,10 @@ footer{
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen {
+	header{
+		height: 200px;
+	}
+    
     .content {
         width: 65%;
     }
@@ -397,6 +401,11 @@ footer{
     }
 
 	/* Меньше 800px*/
+
+	header{
+		height: 200px;
+	}
+
     .content {
         width: 80%;
     }
@@ -450,14 +459,14 @@ footer{
 .fg18{
 	font-family: FontAll;
 	color: #6b6b6b;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 0px;
 }
 /* Описание доставка оплата */
 .fg19{
 	font-family: FontAll;
 	color: #6b6b6b;
-	font-size: 22px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	line-height: 1.5;
 }
@@ -481,7 +490,7 @@ footer{
 .fb27{
 	font-family: FontAll;
 	color: black;
-	font-size: 31px;
+	font-size: 29px;
 	letter-spacing: 2px;
 }
 
