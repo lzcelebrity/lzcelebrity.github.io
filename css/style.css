@@ -252,8 +252,7 @@ footer{
     font-family: inherit;
 	margin-left: 20px;
     margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 30%;
 	width: 50px;
 	height: 50px;
 	background: url(../img/60510.png);		/* Путь к фоновому рисунку */
@@ -376,7 +375,7 @@ footer{
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen {
 	header{
-		height: 200px;
+		height: 210px;
 	}
     
     .content {
@@ -403,7 +402,7 @@ footer{
 	/* Меньше 800px*/
 
 	header{
-		height: 200px;
+		height: 180px;
 	}
 
     .content {
