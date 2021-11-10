@@ -1,6 +1,27 @@
+// Чтение документа по url
+function readXMLHttp(URL, OUT){
+
+	var txt = '';
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function(){
+
+		if(xmlhttp.status==200 && xmlhttp.readyState==4){
+
+	    	txt = xmlhttp.responseText;
+			document.getElementById(OUT).innerHTML = txt;
+			return xmlhttp.responseText;
+		}
+	}
+
+	xmlhttp.open("GET", URL, true);
+	xmlhttp.send();
+}
+
 function loadPage(){
 
-
+	readXMLHttp("http://lzcelebrity.github.io/header.html", "header");
+	readXMLHttp("http://lzcelebrity.github.io/footer.html", "footer");
+	
 	// HEADER
 	let elem_header = document.getElementById("header");
 
