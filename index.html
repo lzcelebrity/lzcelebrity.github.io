@@ -8,19 +8,13 @@
 	<script src="src/dropMenu.js"></script>
 	<script src="src/readXMLHttp.js"></script>
 	<script src="src/loadPage.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-
-		  setTimeout(loadPage, 100);
-		}, false);		
-	</script>
 </head>
-<body onload="setTimeout(loadPage, 100);">
-
+<body>
+	<!-- https://compressor.andona.click/ -->
 	<!-- HEADRE -->
 	<header>
 		
-		<div class="logo" onclick="location.href='index.html';"></div>
+		<div class="logo" onclick='location.href="index.html"';></div>
 		
 		<div class="navbar">
 
@@ -71,6 +65,7 @@
 
 		<!-- Вверх страницы -->
 		<div class="top"> <a href="#" id="up" onclick="return up()"><img src="img/up.png"></a></div>
+
 	</div>
 	
 	<!-- FOOTER -->
