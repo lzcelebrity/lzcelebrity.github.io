@@ -24,7 +24,7 @@ function loadPage(){
 	
 	// HEADER
 	let elem_header = document.getElementById("header");
-	elem_header.innerHTML = '<div class="logo" onclick="location.href="index.html";"></div><div class="navbar"><a href="index.html"></a><div class="dropdown"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-caret-down"></i></button><div class="dropdown-content" id="myDropdown"><a href="index.html">магазин</a><a href="payment.html">информация</a><a href="contact.html">контакты</a></div></div> </div>';
+	elem_header.innerHTML = '<div class="logo" onclick="location.href=\'index.html\';"></div><div class="navbar"><a href="index.html"></a><div class="dropdown"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-caret-down"></i></button><div class="dropdown-content" id="myDropdown"><a href="index.html">магазин</a><a href="payment.html">информация</a><a href="contact.html">контакты</a></div></div> </div>';
 
 	// FOOTER
 	let elem_footer = document.getElementById("footer");
