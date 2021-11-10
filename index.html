@@ -8,6 +8,12 @@
 	<script src="src/dropMenu.js"></script>
 	<script src="src/readXMLHttp.js"></script>
 	<script src="src/loadPage.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+
+		  setTimeout(loadPage, 100);
+		}, false);		
+	</script>
 </head>
 <body onload="setTimeout(loadPage, 100);">
 
@@ -85,7 +91,6 @@
 		<div class="creator">Create by df229611</div>
 
 	</footer>
-
 
 </body>
 </html>

@@ -37,3 +37,8 @@ function loadPage(){
 	elem_footer.innerHTML = '<object type="text/html" data="v0000.html"></object>';
 */
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  setTimeout(loadPage, 100);
+}, false);	
